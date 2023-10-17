@@ -169,7 +169,7 @@ class Calculator extends JFrame implements ActionListener{
 				tmp = txt1.getText();
 				temp = tmp.substring(0, tmp.length() -tmp.length());
 				txt1.setText(temp);
-				lblName.setText("Developed by Dewmith");
+				lblName.setText("Developed by VihangaG");
 			break;
 		}
 
