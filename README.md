@@ -14,7 +14,7 @@ class Calculator extends JFrame implements ActionListener{
 
 	Calculator() {
 		setSize(300,400);
-		setTitle("Dew's Calc");
+		setTitle("Cal-Vihanga");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		
@@ -31,7 +31,7 @@ class Calculator extends JFrame implements ActionListener{
 		
 		lblName = new JLabel();
 		lblName.setFont(new Font("Serif", Font.PLAIN, 14));
-		lblName.setText("Developed by Dewmith");
+		lblName.setText("Developed by VihangaG");
 		lblName.setForeground(Color.GRAY);
 		displayPanel.add(lblName,BorderLayout.PAGE_END);
 		
